@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelia Grand Hotel | Home</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+    <img src="images/logo-2.png" alt="Hotel Logo">
+    </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="rooms.html">Rooms</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-lg-3">
+                    <a href="contact.html" class="gold-btn">Reserve a Room</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+        <p class="eyebrow">LUXURY HOTEL • LAGOS, NIGERIA</p>
+
+        <h1>
+            Where luxury<br>
+            <em>feels like home.</em>
+        </h1>
+
+        <p class="hero-text">
+            Discover refined Nigerian hospitality, beautiful spaces,
+            exceptional dining and a stay designed around you.
+        </p>
+
+        <a href="rooms.html" class="gold-btn">Explore Our Rooms</a>
+        <a href="#experience" class="outline-btn">Discover More</a>
+    </div>
+</header>
+
+<!-- BOOKING BAR -->
+<section class="booking-wrapper">
+    <div class="container">
+        <div class="booking-card">
+
+            <div class="booking-heading">
+                <small>PLAN YOUR STAY</small>
+                <h3>Find your perfect room</h3>
+            </div>
+
+            <div class="row g-3 align-items-end">
+
+                <div class="col-lg-3 col-md-6">
+                    <label>Check In</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <label>Check Out</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <label>Guests</label>
+                    <select class="form-select">
+                        <option>2 Adults</option>
+                        <option>1 Adult</option>
+                        <option>3 Adults</option>
+                        <option>4 Adults</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <label>Room</label>
+                    <select class="form-select">
+                        <option>Any Room</option>
+                        <option>Royal Deluxe</option>
+                        <option>Executive Suite</option>
+                        <option>Presidential Suite</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-2">
+                    <a href="contact.html" class="dark-btn w-100 text-center">
+                        Check Availability
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT PREVIEW -->
+<section class="section-padding" id="experience">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=90"
+                         alt="Luxury hotel">
+                    <div class="image-number">
+                        <strong>01</strong>
+                        <span>Exceptional<br>by design.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <p class="eyebrow dark">THE AURELIA EXPERIENCE</p>
+
+                <h2 class="section-title">
+                    A new expression of Nigerian hospitality.
+                </h2>
+
+                <p class="muted">
+                    Aurelia Grand brings together contemporary luxury and
+                    the warmth of Nigerian hospitality. Every space is
+                    carefully designed to make you feel comfortable,
+                    confident and completely at ease.
+                </p>
+
+                <p class="muted">
+                    From business trips to weekend escapes and special
+                    celebrations, we make every stay memorable.
+                </p>
+
+                <a href="about.html" class="text-link">
+                    Discover our story <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ROOMS -->
+<section class="section-padding rooms-section">
+    <div class="container">
+
+        <div class="section-heading-row">
+            <div>
+                <p class="eyebrow dark">OUR ACCOMMODATION</p>
+                <h2 class="section-title">Stay in something extraordinary.</h2>
+            </div>
+
+            <a href="rooms.html" class="text-link">
+                View all rooms <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-lg-4">
+                <div class="room-card">
+
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=90"
+                             alt="Royal Deluxe Room">
+
+                        <span>01</span>
+                    </div>
+
+                    <div class="room-content">
+                        <p class="room-label">SIGNATURE ROOM</p>
+
+                        <h3>Royal Deluxe</h3>
+
+                        <p>
+                            Elegant comfort with a king-size bed,
+                            marble bathroom and beautiful city views.
+                        </p>
+
+                        <div class="room-price">
+                            <strong>₦180,000</strong>
+                            <span>/ night</span>
+                        </div>
+
+                        <a href="rooms.html" class="card-link">
+                            Explore Room <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-lg-4">
+                <div class="room-card">
+
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=90"
+                             alt="Executive Suite">
+
+                        <span>02</span>
+                    </div>
+
+                    <div class="room-content">
+                        <p class="room-label">EXECUTIVE SUITE</p>
+
+                        <h3>Executive Aurelia</h3>
+
+                        <p>
+                            A spacious suite with a private lounge,
+                            premium finishes and sweeping city views.
+                        </p>
+
+                        <div class="room-price">
+                            <strong>₦280,000</strong>
+                            <span>/ night</span>
+                        </div>
+
+                        <a href="rooms.html" class="card-link">
+                            Explore Room <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-lg-4">
+                <div class="room-card">
+
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=90"
+                             alt="Presidential Suite">
+
+                        <span>03</span>
+                    </div>
+
+                    <div class="room-content">
+                        <p class="room-label">SIGNATURE SUITE</p>
+
+                        <h3>Presidential Lagos</h3>
+
+                        <p>
+                            Our most distinguished residence with
+                            expansive living space and premium service.
+                        </p>
+
+                        <div class="room-price">
+                            <strong>₦550,000</strong>
+                            <span>/ night</span>
+                        </div>
+
+                        <a href="rooms.html" class="card-link">
+                            Explore Room <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience-section">
+    <div class="container">
+        <div class="row g-0">
+
+            <div class="col-lg-6 experience-image"></div>
+
+            <div class="col-lg-6 experience-content">
+                <p class="eyebrow">CURATED FOR YOU</p>
+
+                <h2>
+                    More than a hotel.<br>
+                    <em>A complete experience.</em>
+                </h2>
+
+                <p>
+                    Enjoy our pool, restaurant, lounge, wellness spaces
+                    and attentive concierge service — all created to
+                    make your time with us exceptional.
+                </p>
+
+                <a href="contact.html" class="outline-btn">
+                    Plan Your Stay
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section-padding">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <p class="eyebrow dark">HOTEL SERVICES</p>
+            <h2 class="section-title">The details matter.</h2>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="service-card">
+                    <i class="bi bi-wifi"></i>
+                    <h4>High-Speed Wi-Fi</h4>
+                    <p>Reliable internet throughout the hotel.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="service-card">
+                    <i class="bi bi-water"></i>
+                    <h4>Infinity Pool</h4>
+                    <p>Relax and enjoy the perfect city escape.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="service-card">
+                    <i class="bi bi-cup-hot"></i>
+                    <h4>Fine Dining</h4>
+                    <p>Contemporary cuisine with Nigerian influence.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="service-card">
+                    <i class="bi bi-car-front"></i>
+                    <h4>Secure Parking</h4>
+                    <p>Convenient and secure parking for guests.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+    <div class="container text-center">
+
+        <p class="eyebrow dark">GUEST EXPERIENCE</p>
+
+        <blockquote>
+            “Beautiful spaces, excellent service and the kind of
+            Nigerian hospitality that makes you want to stay longer.”
+        </blockquote>
+
+        <p class="guest-name">— AURELIA GUEST</p>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+
+        <div class="row g-5">
+
+            <div class="col-lg-5">
+                <a href="index.html" class="footer-brand">
+                    AURELIA <span>GRAND</span>
+                </a>
+
+                <p>
+                    Contemporary luxury and Nigerian warmth.
+                    Victoria Island, Lagos, Nigeria.
+                </p>
+            </div>
+
+            <div class="col-6 col-lg-2">
+                <h6>EXPLORE</h6>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="rooms.html">Rooms</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="col-6 col-lg-2">
+                <h6>HOTEL</h6>
+                <a href="#">Dining</a>
+                <a href="#">Wellness</a>
+                <a href="#">Events</a>
+                <a href="#">Concierge</a>
+            </div>
+
+            <div class="col-lg-3">
+                <h6>CONTACT</h6>
+                <p>
+                    +234 800 123 4567<br>
+                    stay@aureliagrand.com
+                </p>
+
+                <div class="socials">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 Aurelia Grand Hotel. All Rights Reserved.
+        </p>
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
